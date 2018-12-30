@@ -3,5 +3,5 @@
 - 修改代码src/main/resources/application.yml中的SQL SERVER数据库连接配置
 - 在SQL SERVER中建textbook数据库
 - 在项目根目录下执行```mvn compile```下载依赖包、编译
-- 编译成功后在项目根目录下执行```mvn springboot:run```
+- 编译成功后在项目根目录下执行```mvn spring-boot:run```
 - 浏览器访问127.0.0.1:8089/textbook
