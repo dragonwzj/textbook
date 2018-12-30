@@ -1,0 +1,20 @@
+spring:
+  freemarker:
+    request-context-attribute: request
+  resources:
+    static-locations: classpath:/
+  datasource:
+    url: jdbc:sqlserver://127.0.0.1;databaseName=textbook
+    username: sa
+    password: 235610
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: sql_server
+    database-platform: org.hibernate.dialect.SQLServer2008Dialect
+server:
+  port: 8089
+  servlet:
+    context-path: /
