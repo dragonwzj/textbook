@@ -6,5 +6,5 @@
 - 编译成功后在项目根目录下执行```mvn spring-boot:run```
 - 浏览器访问127.0.0.1:8089/textbook
 - 截图：
-![图片alt](http://img.rainfn.com/textbook1.jpg ''图片title'')
-![图片alt](http://img.rainfn.com/textbook2.jpg ''图片title'')
+![首页](http://img.rainfn.com/textbook1.jpg)
+![新增页](http://img.rainfn.com/textbook2.jpg)
